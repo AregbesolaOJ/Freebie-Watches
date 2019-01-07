@@ -1,0 +1,456 @@
+
+/************************************************
+*************************************************
+         DEFAULT STANDARD STYLING
+*************************************************
+*************************************************/
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+/****************************************
+          MAIN CONTENT STYLING
+*****************************************/
+  body {
+    font-family: 'Arimo', serif;
+    height: 100vh;
+    margin: 0;
+    border: 10px solid #ffffff;
+  }
+  .primary_content {
+    background: #fff000 url('../images/watch.png') no-repeat center left 10%;
+    background-size: cover;
+  }
+  .primary_content_alt {
+    background: #fff000 url('../images/watch_main.png') no-repeat center right 25%;
+    background-size: cover;
+  }
+  .top {
+    padding: 5px 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .logo {
+    margin: 5px;
+    font-size: 30px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    text-align: left;
+  }
+  .log {
+    font-size: 12px;
+    color: #ffffff;
+    font-style: bold;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: right;
+  }
+  .box {
+    margin-left: 5px;
+    padding: 2px 10px;
+    border: 1px solid #ffffff;
+  }
+  .login {
+    width: 50%;
+    padding: 10px 0;
+    margin: 5px;
+    text-align: right;
+  }
+  .options {
+    width: 100%;
+    padding: 5px 18px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+  }
+  .option {
+    margin: 0 10px;
+  }
+  .women, 
+  .apparel {
+    opacity: 0.7;
+  }
+  .body {
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 100px;
+  }
+  .body button {
+    font-weight: 500;
+    font-size: 8px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #E9E9E9;
+    border-radius: 50px;
+    padding: 5px 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .oval i {
+    display: none;
+    color: #FFFFFF;
+    margin: 3px 5px;
+  }
+  .st {
+    opacity: 0.5;
+  }
+  .secondary_content {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 50px 20px;
+  }
+  .secondary_content_alt {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 50px 20px;
+  }
+  .watch {
+    margin: 0 0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+  }
+  .watch_alt {
+    margin: 0 0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  .rate {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    float: left;
+  }
+  .ratings i {
+    color: #a48158;
+  }
+  .ratings {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-align: right;
+    margin: 10px 0;
+    font-weight: normal;
+  }
+  .content {
+    margin-bottom: 20px;
+  }
+  .content p,
+  .details,
+  .shipping {
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 1.05px;
+  }
+  .shipping {
+    opacity: 0.5;
+    margin-left: 10px;
+  }
+  .sizing {
+    margin: 20px 0 40px;
+  }
+  .size {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    font-size: 12px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+  }
+  .size1,
+  .size2,
+  .size1_alt {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 5px;
+  }
+  .size1 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  }
+  .size1_alt {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  }
+  .purchase {
+    margin: 10px 0 30px;
+  }
+  .page {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #636363;
+    padding: 10px 15px;
+  }
+  .page1 {
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 -5px;
+  }
+  .cart {
+    padding: 11px 30px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+    letter-spacing: 1.63px;
+  }
+  .cart_alt {
+    padding: 11px 30px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+    letter-spacing: 1.63px;
+  }
+
+/****************************************
+          MEDIA QUERIES
+*****************************************/
+
+/* For Large Screen Sizes */
+
+@media (min-width: 768px) {
+  .primary_content {
+    height: 520px;
+    background: #fff000 url('../images/watch.png') no-repeat center left 35%/ cover;
+  }
+  .primary_content_alt {
+    height: 520px;
+    background: #fff000 url('../images/watch_main.png') no-repeat center right 35%/ cover;
+  }
+  .top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    margin: 5px 40px;
+    justify-content: space-between;
+  }
+  .box {
+    margin-left: 15px;
+  }
+  .login {
+    width: 15%;
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: right;
+    order: 2;
+  }
+  .options {
+    order: 1;
+    width: 50%;
+    margin: 10px 5px 5px;
+    display: flex;
+    justify-content: flex-end;
+    border: 0px solid #ffffff;
+  }
+  .option {
+    margin: 0 20px;
+  }
+  .body {
+    padding-top: 130px;
+    margin-top: 300px;
+  }
+  .body button {
+    font-size: 12px;
+  }
+  .secondary_content {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px 40px;
+    position: absolute;
+    left: 47.95%;
+    top: 15.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 350px;
+    height: 400px;
+  }
+  .secondary_content_alt {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 20px 40px;
+    position: absolute;
+    left: 6.34%;
+    top: 15.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 350px;
+    height: 400px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .primary_content {
+    height: 720px;
+    
+    background: #fff000 url('../images/watch.png') no-repeat center left 25% / cover;
+  }
+  .primary_content_alt {
+    height: 720px;
+    
+    background: #fff000 url('../images/watch_main.png') no-repeat center right 25% / cover;
+  }
+  .top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    margin: 5px 150px;
+    justify-content: space-between;
+  }
+  .box {
+    margin-left: 20px;
+  }
+  .option {
+    margin: 0 40px;
+  }
+  .content p {
+    margin-top: 20px;
+  }
+  .sizing {
+    margin: 20px 0 70px;
+  }
+  .body {
+    padding-top: 120px;
+    margin-top: 500px;
+  }
+  .body button {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  .oval i {
+    margin: 3px 10px;
+  }
+  .secondary_content {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 65px 80px;
+    position: absolute;
+    left: 51.21%;
+    top: 22.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+  }
+  .secondary_content_alt {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 65px 80px;
+    position: absolute;
+    left: 11.84%;
+    top: 23.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 1440px) {
+  .primary_content {
+    height: 768px;
+    
+    background: #fff000 url('../images/watch.png') no-repeat center / cover;
+  }
+  .primary_content_alt {
+    height: 768px;
+    
+    background: #fff000 url('../images/watch_main.png') no-repeat center / cover;
+  }
+  .body {
+    padding-top: 120px;
+    margin-top: 520px;
+  }
+  .body button {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
+  .oval i {
+    margin: 3px 20px;
+  }
+  .secondary_content {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 65px 90px;
+    position: absolute;
+    left: 54%;
+    top: 15.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+  }
+  .secondary_content_alt {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 65px 90px;
+    position: absolute;
+    left: 11.2%;
+    top: 15.76%;
+    z-index: 2;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+  }
+  .cart,
+  .cart_alt {
+    padding: 11px 50px;
+  }
+}
